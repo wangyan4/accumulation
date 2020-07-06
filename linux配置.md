@@ -27,6 +27,8 @@
 
 ### linux安装mysql   https://blog.51cto.com/14497235/2428992
 
+
+
 > 1. 查找虚拟机是否有mysql数据库，并查找删除自带的数据库，并确认
 >
 >    ![image.png](./confimg/1.png)
@@ -73,5 +75,6 @@
 >
 > ![image.png](./confimg/9.png)
 
-### nginx.conf
+## nginx.conf
 
+**https://blog.csdn.net/qq_23146367/article/details/103533896**
