@@ -67,7 +67,7 @@ module.exports={
   > 2. 在webpack.config.js中通过require引入
   > 3. 在plugins中new实例化对象
 
-+ mini-css-extract-plugin
++ **mini-css-extract-plugin**
 
   > 1. 下载 yarn add mini-css-extract-plugin
   > 2. 在weback.config.js中通过require引入
@@ -75,13 +75,13 @@ module.exports={
 
 ### loader 
 
-+ css-loader
++ **css-loader**
 
-+ less-loader
++ **less-loader**
 
-+ postcss-loader  css添加前缀 -webkit-、-ms- 
++ **postcss-loader**  css添加前缀 -webkit-、-ms- 
 
-  + 和autoprefixer 搭配使用
+  + 和**autoprefixer** 搭配使用
 
     ``` js
     // postcss.config.js
@@ -95,4 +95,4 @@ module.exports={
 
     
 
-+ bable-loader  @bable/core  @bable/preset-env
++ **bable-loader  @bable/core  @bable/preset-env**  编译高级语法  例:es6->es5

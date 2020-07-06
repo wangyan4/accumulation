@@ -23,10 +23,6 @@ doc/**/*.pdf
 ### git commit log中文乱码
 
 ``` 
-git config --global i18n.commitencoding utf-8
-
-git config --global i18n.logoutputencoding utf-8
-
-export LESSCHARSET=utf-8
+//待处理
 ```
 
