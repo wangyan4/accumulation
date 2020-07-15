@@ -1,3 +1,27 @@
+### gitlab 配置ssh
+
+https://www.cnblogs.com/hafiz/p/8146324.html
+
+1. 打开git bash 命令窗口
+
+2. 输入“ssh-keygen -t rsa -C [youremail@example.com](mailto:youremail@example.com)”
+
+   windows默认生成的key在C盘家目录下
+
+3. 配置全局的name和email
+
+   `git config --global user.name your_count`
+
+   `git ocnfig --global user.email your_email`
+
+4. 连续3次回车 创建空密码key
+
+5. `cat ~/.ssh/id_rsa.pub`查看公钥并复制
+
+6. 到settings里面 添加ssh key 
+
+
+
 #### .gitignore
 
 ```
