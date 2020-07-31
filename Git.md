@@ -50,3 +50,25 @@ doc/**/*.pdf
 //待处理
 ```
 
+# [git出现RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errfno 10054](https://www.cnblogs.com/qianshouxiuluo/p/11662616.html)
+
+1.问题：git下载代码时，报“git出现RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errfno 10054”的问题，如下所示的截图
+
+![img](https://img2018.cnblogs.com/blog/1832793/201910/1832793-20191012165127495-1172697860.png)
+
+ 
+
+ 2.解决步骤：
+
+2.1 首先输入如下命令： 　　git config http.sslVerify "false"
+
+2.2 如果输入上面命令提示报“ **fatal: not in a git directory** ”，则输入如下命令：git init
+
+2.3 重新下载代码： git clone https://gitee.com......
+
+2.4 如果还是git代码还是下载失败，则需要修改git缓存的大小为100MB，输入如下命令： git config --global http.postBuffer 100M
+![img](https://img2018.cnblogs.com/blog/1832793/201910/1832793-20191012165654492-604506312.png)
+
+ 
+
+ 2.5 问题解决了。
