@@ -72,3 +72,28 @@ doc/**/*.pdf
  
 
  2.5 问题解决了。
+
+
+
+# [解决$ git clone fatal: Authentication failed](https://www.cnblogs.com/zhuzhaoli/p/10687988.html)
+
+今天在使用git clone克隆项目的时候报如下错误：
+
+```
+$ git clone XXXXXX
+Cloning into 'XXXX'...
+fatal: Authentication failed for 'XXXXXX'
+```
+
+在网上查找了一番，也使用如下命令进行了设置：
+
+```
+git config --global user.name
+git config --global user.email
+```
+
+同时也清除了windows凭证管理器中记录的凭证，仍然不行，最后使用了如下命令解决：
+
+```
+git config --system --unset credential.helper
+```
