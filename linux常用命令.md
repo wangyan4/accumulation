@@ -1,3 +1,17 @@
+在线练习网址
+
+```javascript
+https://www.masswerk.at/jsuix/index.html  guest   https://mp.weixin.qq.com/s?__biz=MzA3OTQzMjc3NA%3D%3D&mid=2650567960&idx=1&sn=b0e41dbbe85a95e12404e6476f0d5cec&scene=45#wechat_redirect
+
+http://cb.vu/
+https://copy.sh/v86/?profile=linux26
+https://bellard.org/jslinux/
+```
+
+https://www.linuxcool.com/  linux 在线命令查看
+
+
+
 # 一、基本命令
 
 ## 1.1 关机和重启
