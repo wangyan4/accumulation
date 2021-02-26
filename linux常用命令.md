@@ -6,6 +6,7 @@ https://www.masswerk.at/jsuix/index.html  guest   https://mp.weixin.qq.com/s?__b
 http://cb.vu/
 https://copy.sh/v86/?profile=linux26
 https://bellard.org/jslinux/
+https://zhuanlan.zhihu.com/p/88087469
 ```
 
 https://www.linuxcool.com/  linux 在线命令查看
