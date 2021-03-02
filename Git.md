@@ -97,3 +97,14 @@ git config --global user.email
 ```
 git config --system --unset credential.helper
 ```
+
+## git 克隆一个仓库到另一个仓库
+
+```
+git clone --bare 原地址
+git clone -b 分支名  源地址 --克隆某个分支
+
+cd project.git
+git push --mirror 新地址
+```
+
