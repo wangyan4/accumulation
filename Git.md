@@ -1,10 +1,10 @@
-### gitlab 配置ssh
+# gitlab 配置ssh
 
 https://www.cnblogs.com/hafiz/p/8146324.html
 
 1. 打开git bash 命令窗口
 
-2. 输入“ssh-keygen -t rsa -C [youremail@example.com](mailto:youremail@example.com)”
+2. 输入“ssh-keygen -t rsa -C [2236995139@qq.com](mailto:youremail@example.com)”
 
    windows默认生成的key在C盘家目录下
 
