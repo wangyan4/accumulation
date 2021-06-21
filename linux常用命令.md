@@ -9,7 +9,10 @@ https://bellard.org/jslinux/
 https://zhuanlan.zhihu.com/p/88087469
 ```
 
-https://www.linuxcool.com/  linux 在线命令查看
+# **linux 在线命令查看**
+
+https://www.linuxcool.com/  
+https://wangchujiang.com/linux-command/c/ls.html
 
 
 
@@ -192,10 +195,12 @@ more sudo.conf
 示例：使用less查看/etc/sudo.conf文件，可以使用键盘上的PgUp和PgDn向上   和向下翻页，q结束查看
 less sudo.conf
 
-**tail：指定行数或者动态查看**
+**head、tail：指定行数或者动态查看**
 
+示例：使用head -n 10 查看/etc/sudo.conf文件的前10行，Ctrl+C结束    
 示例：使用tail -10 查看/etc/sudo.conf文件的后10行，Ctrl+C结束  
-tail -10 sudo.conf
+tail -10 sudo.conf     -f  动态显示末尾几行
+head -n 10 sudo.conf
 
 ## 3.2 权限修改
 
@@ -222,6 +227,11 @@ rwx：r代表可读，w代表可写，x代表该文件是一个可执行文件�
 
 命令：chmod 100 aaa.txt
 ```
+
+## 3.3 链接命令
+
+ln [源文件] [目标文件]
+-s 生成一个软连接
 
 # 四、压缩文件操作
 
